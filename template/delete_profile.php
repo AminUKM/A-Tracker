@@ -10,5 +10,5 @@ $stmt->execute([$matric]);
 // Optionally delete from other tables (targets, subjects, etc.)
 
 session_destroy();
-header("Location: login.php");
+header("Location: Login.php");
 exit();
