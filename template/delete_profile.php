@@ -1,7 +1,7 @@
 <?php
 session_start();
 include 'db.php';
-if (!isset($_SESSION['matric'])) { header("Location: login.php"); exit(); }
+if (!isset($_SESSION['matric'])) { header("Location: Login.php"); exit(); }
 $matric = $_SESSION['matric'];
 
 // Delete user from Table_Students and optionally related tables
