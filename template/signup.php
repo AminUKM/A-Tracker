@@ -109,18 +109,18 @@
             80% { transform: translateX(8px);}
             100% { transform: translateX(0);}
         }
-        .login-link {
+        .Login-link {
             text-align: center;
             margin-top: 18px;
             font-size: 0.97rem;
         }
-        .login-link a {
+        .Login-link a {
             color: #2575fc;
             font-weight: 600;
             text-decoration: underline;
             transition: color 0.2s;
         }
-        .login-link a:hover {
+        .Login-link a:hover {
             color: #6a11cb;
         }
     </style>
@@ -146,9 +146,9 @@
             <input type="number" name="total_credits" placeholder="Total Credits (Previous Semester)" min="0" required autocomplete="off">
             <input type="submit" name="signup" value="Sign Up">
         </form>
-        <div class="login-link">
+        <div class="Login-link">
             Already have an account?
-            <a href="login.php">Login here</a>
+            <a href="Login.php">Login here</a>
         </div>
         <?php
 if (isset($_POST['signup'])) {
@@ -162,7 +162,7 @@ if (isset($_POST['signup'])) {
             if ($stmt->execute([$_POST['matric'], $_POST['name'], $_POST['email'], $hashed, $_POST['cgpa'], $_POST['total_credits']])) {
                 echo "<script>
                     alert('Congratulation! Your account successfully registered.');
-                    window.location.href = 'login.php';
+                    window.location.href = 'Login.php';
                 </script>";
             } else {
                 echo "<div class='error-message'>Signup failed. Please try again.</div>";
