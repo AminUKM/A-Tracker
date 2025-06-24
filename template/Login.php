@@ -24,7 +24,7 @@ if (isset($_POST['login'])) {
 <head>
     <title>Login</title>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="../static/images/A+ Tracker.ico">
+    <link rel="icon" type="image/x-icon" href="static/images/A+ Tracker.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -130,7 +130,7 @@ if (isset($_POST['login'])) {
 </head>
 <body>
     <div class="login-container">
-        <img src="../static/images/A+ Tracker.png" alt="A+ Tracker Logo" class="logo">
+        <img src="static/images/A+ Tracker.png" alt="A+ Tracker Logo" class="logo">
         <h2>Login</h2>
         <form method="POST" autocomplete="off" style="display:flex; flex-direction:column; align-items:center; gap:18px;">
             <div style="width:100%;">
