@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 session_start();
-if (!isset($_SESSION['matric'])) { header("Location: login.php"); exit(); }
+if (!isset($_SESSION['matric'])) { header("Location: Login.php"); exit(); }
 
 // Fetch all registered subjects for this student
 $stmt = $conn->prepare("SELECT * FROM Table_Subjects WHERE matric_number = ?");
