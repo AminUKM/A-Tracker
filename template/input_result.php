@@ -4,7 +4,7 @@ session_start();
 include 'db.php';
 
 if (!isset($_SESSION['matric'])) {
-    header("Location: login.php");
+    header("Location: Login.php");
     exit();
 }
 
