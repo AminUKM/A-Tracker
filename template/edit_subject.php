@@ -51,7 +51,7 @@ if (isset($_POST['update_subject'])) {
 <head>
     <title>Edit Subject</title>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="../static/images/A+ Tracker.ico">
+    <link rel="icon" type="image/x-icon" href="/static/images/APlusTracker.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <style>
         body {
