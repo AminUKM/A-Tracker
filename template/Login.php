@@ -24,7 +24,7 @@ if (isset($_POST['login'])) {
 <head>
     <title>Login</title>
     <meta charset="UTF-8">
-    <link rel="icon" href="/static/images/APlusTracker.ico" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="/static/images/APlusTracker.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <style>
         body {
