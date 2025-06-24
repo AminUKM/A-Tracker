@@ -99,7 +99,7 @@ if ($cgpa >= 3.68) {
 <head>
     <title>Dashboard</title>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="static/images/A+ Tracker.ico">
+    <link rel="icon" type="image/x-icon" href="/static/images/APlusTracker.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -302,7 +302,7 @@ if ($cgpa >= 3.68) {
 <body>
     <nav>
         <div class="logo-container">
-            <img src="static/images/A+ Tracker.png" alt="A+ Tracker Logo" />
+            <img src="/static/images/APlusTracker.png" alt="Logo" class="logo">
             <strong>A+ Tracker</strong>
         </div>
         <div>
