@@ -4,7 +4,7 @@
 <head>
     <title>Signup</title>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="../static/images/A+ Tracker.ico">
+    <link rel="icon" type="image/x-icon" href="/static/images/APlusTracker.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -127,7 +127,7 @@
 </head>
 <body>
     <div class="signup-container">
-        <img src="../static/images/A+ Tracker.png" alt="A+ Tracker Logo" class="logo">
+        <img src="/static/images/APlusTracker.png" alt="Logo" class="logo">
         <h2>Sign Up</h2>
         <form method="POST" autocomplete="off">
             <input type="text" name="matric" placeholder="Matric Number" required autocomplete="off">
